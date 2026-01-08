@@ -1,54 +1,56 @@
-function hinhchunhat(chieudai: number, chieurong: number){
-    const chuvi = 2 *(chieudai + chieurong);
-    const dientich = chieudai * chieurong;
+// function hinhchunhat(chieudai: number, chieurong: number){
+//     const chuvi = 2 *(chieudai + chieurong);
+//     const dientich = chieudai * chieurong;
 
-    return{
-        chuvi,
-        dientich
-    };
-}
+//     return{
+//         chuvi,
+//         dientich
+//     };
+// }
 
-const ketqua = hinhchunhat(10,5);
-console.log("chuvi:",ketqua.chuvi);
-console.log("dientich:",ketqua.dientich);
+// const ketqua = hinhchunhat(10,5);
+// console.log("chuvi:",ketqua.chuvi);
+// console.log("dientich:",ketqua.dientich);
 
-function tinhtong(...numbers: number[]): number{
-    let tong = 0;
-    for(let n of numbers){
-        tong +=n;
-    }
-    return tong;
-}
+// function tinhtong(...numbers: number[]): number{
+//     let tong = 0;
+//     for(let n of numbers){
+//         tong +=n;
+//     }
+//     return tong;
+// }
 
-console.log(tinhtong(1,2,3));
-console.log(tinhtong(5,10,15,20));
-console.log(tinhtong());
+// console.log(tinhtong(1,2,3));
+// console.log(tinhtong(5,10,15,20));
+// console.log(tinhtong());
 
-function demkytu(chuoi: string, kytu:string):number{
-    let dem = 0;
+// function demkytu(chuoi: string, kytu:string):number{
+//     let dem = 0;
 
-    for(let c of chuoi){
-        if( c === kytu){
-            dem++;
-        }
-    }
-    return dem;
-}
+//     for(let c of chuoi){
+//         if( c === kytu){
+//             dem++;
+//         }
+//     }
+//     return dem;
+// }
 
-console.log(demkytu("typescript","t"));
+// console.log(demkytu("typescript","t"));
 
-function lasonguyento(n:number): boolean{
-    if(n < 2) return false;
+// function lasonguyento(n:number): boolean{
+//     if(n < 2) return false;
 
-    for(let i = 2; i <=Math.sqrt(n); i++){
-        if(n % i ===0){
-            return false;
-        }
-    }
-    return true;
-}
+//     for(let i = 2; i <=Math.sqrt(n); i++){
+//         if(n % i ===0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
-console.log(lasonguyento(2));
-console.log(lasonguyento(9));
-console.log(lasonguyento(17));
+// console.log(lasonguyento(2));
+// console.log(lasonguyento(9));
+// console.log(lasonguyento(17));
 
+// let age: number = 25;
+// let price: number = 19.99;
