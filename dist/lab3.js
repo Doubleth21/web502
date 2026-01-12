@@ -7,7 +7,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-//ham tinh diem trung binh 3 mon toan ly hoa
+//ham tinh diem trung binh
 var tinhdiemtrungbinh = function (toan, ly, hoa) {
     return (toan + ly + hoa) / 3;
 };
